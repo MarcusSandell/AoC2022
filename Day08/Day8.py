@@ -1,4 +1,4 @@
-grid = [list(map(int, line)) for line in open("Day8\\Day8.txt").read().splitlines()]
+grid = [list(map(int, line)) for line in open("Day08\\Day8.txt").read().splitlines()]
 
 ans1 = 0
 ans2 = 0

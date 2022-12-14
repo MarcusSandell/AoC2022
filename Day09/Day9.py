@@ -1,4 +1,4 @@
-with open("Day9\\Day9.txt") as f:
+with open("Day09\\Day9.txt") as f:
     lines = f.read().strip().split("\n")
 
 #headPos = [0,0] # X, Y

@@ -5,7 +5,7 @@ def getScore(nbr):
     else:
         return nbr - ord('A') + 27
 
-with open("Day3\\Day3.txt") as f:
+with open("Day03\\Day3.txt") as f:
     lines = [i for i in f.read().strip().split("\n")]
 
 answer_pt1 = 0

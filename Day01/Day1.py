@@ -1,5 +1,5 @@
 
-with open("Day1\\Day1.txt","r") as f:
+with open("Day01\\Day1.txt","r") as f:
         lines = f.readlines()
 
 elves = [] #maxCal, index

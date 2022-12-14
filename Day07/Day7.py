@@ -3,7 +3,7 @@ from functools import lru_cache
 
 # All plagiarized btw :)
 
-with open("Day7\\Day7.txt") as f:
+with open("Day07\\Day7.txt") as f:
     blocks = ("\n" + f.read().strip()).split("\n$ ")[1:]
 
 path = []
