@@ -1,12 +1,10 @@
-path = "C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day14\\Day14.txt"
-
 grid = set()
 sands = set()
 abyss = 0
 grid_size_max = (0, 0) # x, -y
 grid_size_min = (99999, 0)
 
-for i in open(path):
+for i in open("Day14\\Day14.txt", "r"):
     s = [list(map(int, p.split(","))) for p in i.strip().split(" -> ")]
 
     for (x1, y1), (x2, y2) in zip(s, s[1:]):

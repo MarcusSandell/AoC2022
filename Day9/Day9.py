@@ -1,6 +1,4 @@
-path = "C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day9\\Day9.txt"
-
-with open(path) as f:
+with open("Day9\\Day9.txt") as f:
     lines = f.read().strip().split("\n")
 
 #headPos = [0,0] # X, Y

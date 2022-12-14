@@ -11,7 +11,7 @@ def resetStack():
                 stacks[j].append(lines[i][j*4+1])
     return stacks
 
-with open("C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day5\\Day5.txt") as f:
+with open("Day5\\Day5.txt") as f:
     lines = f.readlines()
 temp = ""
 

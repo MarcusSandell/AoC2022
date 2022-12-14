@@ -1,23 +1,21 @@
-path =  "C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day13\\Day13.txt"
-
-x = list(map(str.splitlines, open(path).read().strip().split("\n\n")))
+x = list(map(str.splitlines, open("Day14/Day14.txt", "r").read().strip().split("\n\n")))
 
 
-def f(x, y):
+def compare(x, y):
 
     if type(x) == int:
         if type(y) == int:
             return x - y
 
         else:
-            return f([x] ,y)
+            return compare([x] ,y)
 
     else:
         if type(y) == int:
-            return f(x, [y])
+            return compare(x, [y])
 
     for a, b, in zip(x, y):
-        v = f(a, b)
+        v = compare(a, b)
         if v:          # If v non zero
             return v
 
@@ -27,7 +25,7 @@ def f(x, y):
 t = 0
 
 for i, (a, b) in enumerate(x):
-    if f(eval(a), eval(b)) < 0:
+    if compare(eval(a), eval(b)) < 0:
         t += i + 1
 
 print(t)

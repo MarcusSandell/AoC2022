@@ -1,6 +1,4 @@
-
-path = "C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day8\\Day8.txt"
-grid = [list(map(int, line)) for line in open(path).read().splitlines()]
+grid = [list(map(int, line)) for line in open("Day8\\Day8.txt").read().splitlines()]
 
 ans1 = 0
 ans2 = 0

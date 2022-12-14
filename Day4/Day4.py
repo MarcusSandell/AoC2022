@@ -1,4 +1,4 @@
-with open("C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day4\\Day4.txt") as f:
+with open("Day4\\Day4.txt") as f:
     lines = [i for i in f.read().strip().split("\n")]
 
 answer_pt1 = 0

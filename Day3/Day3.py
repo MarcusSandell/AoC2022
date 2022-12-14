@@ -5,7 +5,7 @@ def getScore(nbr):
     else:
         return nbr - ord('A') + 27
 
-with open("C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day3\\Day3.txt") as f:
+with open("Day3\\Day3.txt") as f:
     lines = [i for i in f.read().strip().split("\n")]
 
 answer_pt1 = 0

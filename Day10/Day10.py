@@ -1,7 +1,4 @@
-
-path = "C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day10\\Day10.txt"
-
-with open(path) as f:
+with open("Day10\\Day10.txt") as f:
     operations = f.read().strip().split("\n")
 
 register_val = 1

@@ -1,6 +1,4 @@
-
-path = "C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day11\\Day11.txt"
-with open(path) as f:
+with open("Day11\\Day1.txt") as f:
     lines = f.read().strip().split("\n")
 
 amountOfMonkeys = int(lines[-6][7])

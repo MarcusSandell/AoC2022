@@ -1,4 +1,4 @@
-with open("C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day6\\Day6.txt") as f:
+with open("Day6\\Day6.txt") as f:
     lines = f.readline()
 
 

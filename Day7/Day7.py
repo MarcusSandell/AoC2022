@@ -1,9 +1,9 @@
 from collections import defaultdict
 from functools import lru_cache
 
-# Jag fattar inget asså
+# All plagiarized btw :)
 
-with open("C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day7\\Day7.txt") as f:
+with open("Day7\\Day7.txt") as f:
     blocks = ("\n" + f.read().strip()).split("\n$ ")[1:]
 
 path = []

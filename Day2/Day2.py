@@ -2,7 +2,7 @@
 #X = Rock, Y = Paper, Z = Scissors
 #0 for loss, 3 for draw, 6 for win
 
-with open("C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day2\\Day2.txt") as file:
+with open("Day2\\Day2.txt") as file:
     lines = [i for i in file.read().strip().split("\n")]
 
 #lines = list(map(lambda x: x.replace("\n",""), lines))

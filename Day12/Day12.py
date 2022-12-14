@@ -4,9 +4,7 @@ import time
 
 start_time = time.time()
 
-path = "C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day12\\Day12.txt"
-
-with open(path) as f:
+with open("Day12\\Day12.txt") as f:
     lines = f.read().strip().split("\n")
 
 grid = [list(line) for line in lines]

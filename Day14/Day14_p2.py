@@ -1,10 +1,7 @@
-path =  "C:\\Users\\Marcu\\Desktop\\Code\\Advent of Code 2022\\Day14\\Day14.txt"
-
 blocked = set()
-
 abyss = 0
 
-for line in open(path):
+for line in open("Day14\\Day14.txt"):
     lines = [list(map(int , p.split(","))) for p in line.strip().split(" -> ")]
 
     for (x1, y1), (x2, y2) in zip(lines, lines[1:]):
