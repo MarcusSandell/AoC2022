@@ -1,6 +1,6 @@
-grid = set()
-sands = set()
-abyss = 0
+grid = set() # The rock 
+sands = set() # The settled sand
+
 grid_size_max = (0, 0) # x, -y
 grid_size_min = (99999, 0)
 
